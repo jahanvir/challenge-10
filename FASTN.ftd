@@ -10,12 +10,15 @@ favicon: /-/jahanvir.github.io/challenge-10/favicon.ico
 -- fastn.auto-import: jahanvir.github.io/challenge-10/assets
 -- fastn.auto-import: ds
 -- fastn.auto-import: ds/common
+-- fastn.auto-import: fastn-community.github.io/footer as footer
+;; -- fastn.auto-import: fastn-community.github.io/footer/toc
+;; -- fastn.auto-import: fastn/processors as pr
 
 -- fastn.sitemap:
 
 # Home: index.html
-# Services: /#features-card
-# About: /#content
-# Testimonials: /#testimonials
-# Clients: /#logo-cloud
-# FAQs: /#faqs
+# Blog: /#blog
+# Landing: /#Landing
+;; # Testimonials: /#testimonials
+;; # Clients: /#logo-cloud
+;; # FAQs: /#faqs

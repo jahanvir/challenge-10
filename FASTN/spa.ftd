@@ -58,11 +58,27 @@ login-button: $page.login-button
 
 -- ds.page.footer:
 
--- footer.fastn-footer:
-copyright: Copyright © 2035 Midnight
-site-logo: $common.fastn-logo
-powered-by-text: Powered by
-powered-by-link: https://fastn.com/
+-- footer.sitemap-footer:
+;; footer-links: $footer.sitemap.sections 
+footer-links: $common.footer-links
+copyright: Copyright © 2023 - [FifthTry.com](https://www.fifthtry.com/)
+twitter-logo: $assets.files.assets.twitter.svg
+twitter-url: https://twitter.com/FifthTryHQ
+facebook-logo: $assets.files.assets.facebook.svg
+facebook-url: index.html
+discord-logo: $assets.files.assets.discord.svg
+discord-url: https://discord.gg/bucrdvptYd
+instagram-logo: $assets.files.assets.instagram.svg
+instagram-url: index.html
+telegram-logo: $assets.files.assets.telegram.svg
+telegram-url: index.html
+site-name: fastn
+site-url: index.html
+site-logo: $assets.files.assets.ipsum-logo.svg
+logo-height: 32
+sign-up-txt: Subscribe Us
+sign-up-link: index.html
+subscription: true
 
 -- end: ds.page.footer
 
@@ -72,6 +88,9 @@ width: fill-container
 children: $page.wrapper
 
 -- end: ftd.column
+
+;; -- ds.search-card: Freakishly simple. Downright useful. Ready to make the jump?
+;; help-info: Sign up in 2 minutes
 
 -- end: ds.page
 
