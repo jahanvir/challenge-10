@@ -1,6 +1,9 @@
+
+
 -- spa.page:
 full-width: true
 sidebar: false
+
 
 -- spa.hero-with-image: We transform ideas into digital outcomes.
 cta-primary: Learn More
@@ -67,5 +70,12 @@ logo-list: $common.list-of-logos
 
 The only SaaS business platform that combines CRM, marketing automation &
 commerce.
+
+-- spa.search-card:
+title: We transform ideas into digital outcomes. The only SaaS business platform that combines CRM, marketing automation & commerce.
+label: Label
+cta-primary: Button
+cta-primary-link: index.html
+;; input-placeholder: Enter your work email...
 
 -- end: spa.page
